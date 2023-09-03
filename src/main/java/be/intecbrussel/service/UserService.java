@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-public class UserService {
+public class UserService{
     private AccountService accountService = new AccountService();
     private UserRepository userRepository = new UserRepository();
 
@@ -46,4 +46,5 @@ public class UserService {
 
         userRepository.createManyUsers(userList);
     }
+
 }
